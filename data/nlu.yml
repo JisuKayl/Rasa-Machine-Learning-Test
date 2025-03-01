@@ -1,0 +1,75 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - hey there
+      - greetings
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you around
+      - see you later
+      - take care
+      - until next time
+
+  - intent: who_are_you
+    examples: |
+      - who are you
+      - what is your name
+      - what should I call you
+      - introduce yourself
+      - tell me about yourself
+      - what are you
+      - who am I talking to
+      - what's your identity
+
+  - intent: who_created_you
+    examples: |
+      - who created you
+      - who made you
+      - who is your creator
+      - who developed you
+      - who programmed you
+      - who built you
+      - who is your developer
+      - who owns you
+
+  - intent: what_can_you_do
+    examples: |
+      - what can you do
+      - what are your capabilities
+      - what are your features
+      - what functionalities do you have
+      - how can you help me
+      - what are you capable of
+      - what services do you offer
+      - what tasks can you perform
+
+  - intent: how_were_you_made
+    examples: |
+      - how were you made
+      - how were you developed
+      - what technology are you built on
+      - what's your tech stack
+      - how do you work
+      - what framework are you built with
+      - how were you programmed
+      - what's behind your development
+
+  - intent: thank
+    examples: |
+      - thanks
+      - thank you
+      - appreciate it
+      - thanks a lot
+      - thank you very much
+      - thanks for your help

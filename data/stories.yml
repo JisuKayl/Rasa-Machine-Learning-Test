@@ -1,0 +1,37 @@
+version: "3.1"
+
+stories:
+  - story: greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: who are you
+    steps:
+      - intent: who_are_you
+      - action: utter_who_are_you
+
+  - story: who created you
+    steps:
+      - intent: who_created_you
+      - action: utter_who_created_you
+
+  - story: what can you do
+    steps:
+      - intent: what_can_you_do
+      - action: utter_what_can_you_do
+
+  - story: how were you made
+    steps:
+      - intent: how_were_you_made
+      - action: utter_how_were_you_made
+
+  - story: thank
+    steps:
+      - intent: thank
+      - action: utter_thank

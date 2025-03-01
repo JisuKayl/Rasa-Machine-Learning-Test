@@ -1,0 +1,32 @@
+version: "3.1"
+
+rules:
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Say 'I am a bot' anytime the user asks who I am
+    steps:
+      - intent: who_are_you
+      - action: utter_who_are_you
+
+  - rule: Respond when asked who created you
+    steps:
+      - intent: who_created_you
+      - action: utter_who_created_you
+
+  - rule: Respond when asked what you can do
+    steps:
+      - intent: what_can_you_do
+      - action: utter_what_can_you_do
+
+  - rule: Respond when asked how you were made
+    steps:
+      - intent: how_were_you_made
+      - action: utter_how_were_you_made
+
+  - rule: Thank
+    steps:
+      - intent: thank
+      - action: utter_thank
