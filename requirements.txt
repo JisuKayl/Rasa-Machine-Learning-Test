@@ -1,2 +1,2 @@
-rasa>=3.6
-rasa-sdk>=3.6
+rasa>=3.6, <4.0
+rasa-sdk>=3.6, <4.0
